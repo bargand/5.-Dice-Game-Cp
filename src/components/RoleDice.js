@@ -20,7 +20,6 @@ const RoleDice = ({ currentDice, roleDice, setScore }) => {
           toggle={() => setModal(!modal)}
           ><b>Rules</b></ModalHeader>
           <ModalBody
-          toggle={() => setModal(!modal)}
           >
             <p>
               <b>1. First You Have To Select A Number Which Is Right Corner.</b>
